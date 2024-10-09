@@ -4,6 +4,7 @@ A bot made using node js to schedule and transfer funds to BML (Bank of Maldives
 
 ## Requirements
 - npm install speakeasy
+- npm install node-cron
 
 ## Instructions
 1. Open the index.js file and setup the variables.
