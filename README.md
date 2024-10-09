@@ -5,6 +5,10 @@ A bot made using node js to schedule and transfer funds to BML (Bank of Maldives
 ## Requirements
 - npm install speakeasy
 
+## Instructions
+1. Open the index.js file and setup the variables
+2. To find instructions on how to find `bmlAccessToken` click [here](#authentication)
+
 ## API Documentation
 This document contains some endpoints available with the BML Mobile App API.
 
