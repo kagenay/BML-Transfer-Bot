@@ -1,4 +1,5 @@
 const speakeasy = require('speakeasy');
+const cron = require('node-cron');
 
 // Setup Start
 const bmlAccessToken = "Bearer " // [Required]
@@ -187,11 +188,19 @@ function retryFetch(url, options, retries, delay) {
         });
 }
 
-const t = 24 * 60 * 60 * 1000;
-setInterval(transferFunds, t);
-
 console.log("BML Tranfer Bot is running...")
 
+// Schedule the transferFunds function to run at 12:00 PM GMT+5 every day
+cron.schedule('0 12 * * *', () => {
+    transferFunds();
+}, {
+    timezone: "Indian/Maldives" // GMT+5 timezone
+});
+
+// Optionally call transferFunds function on the first run 
 transferFunds()
+
+
+// More API Functions here
 //getContacts()
 //getDashboard()
