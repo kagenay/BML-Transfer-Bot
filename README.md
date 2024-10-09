@@ -329,3 +329,6 @@ BML Mobile App API requires you to authenticate using a Bearer `access_token` wh
         }
     }
     ```
+
+# Help and Support
+If you have any issues with the project, contact @kagenay at telegram or discord
