@@ -6,8 +6,10 @@ A bot made using node js to schedule and transfer funds to BML (Bank of Maldives
 - npm install speakeasy
 
 ## Instructions
-1. Open the index.js file and setup the variables
-2. To find instructions on how to find `bmlAccessToken` click [here](#authentication)
+1. Open the index.js file and setup the variables.
+2. To find instructions on how to find `bmlAccessToken` click [here](#authentication).
+3. To find `debitAccount` and `creditAccount` read the [API Documentation](#api-documentation).
+4. To get `totpSecretKey` go to bmlMobileApp and go to profile -> authenticator setup -> do the setup thing and you'll see a string that you can input into an authenticator application, which is the key.
 
 ## API Documentation
 This document contains some endpoints available with the BML Mobile App API.
