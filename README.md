@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/bf75e1a1-e95a-42b5-89e6-9f14426b984a)
+![image](https://github.com/user-attachments/assets/0782849e-1074-4ee5-bf1d-b7126a6e9a00)
 # BML-Transfer-Bot
 A bot made using node js to schedule and transfer funds to BML (Bank of Maldives) Accounts
 
